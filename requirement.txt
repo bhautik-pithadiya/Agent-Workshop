@@ -1,0 +1,7 @@
+langchain
+langchain-community
+openai
+google-genai
+langchain-google-genai
+numexpr
+google-api-python-client>=2.100.0
