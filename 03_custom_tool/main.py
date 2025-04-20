@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.agents import initialize_agent, AgentType
+from langchain_community.agents import initialize_agent, AgentType
 from langchain_community.agent_toolkits.load_tools import load_tools,get_all_tool_names
-from langchain.tools import tool,Tool,StructuredTool
+from langchain_community.tools import tool,Tool,StructuredTool
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from typing import Optional, List
